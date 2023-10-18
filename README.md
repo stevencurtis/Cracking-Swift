@@ -42,7 +42,7 @@ When a string's contiguous storage fills up, a new buffer must be allocated
 1.4 Palindrome Permutation
 1.5 One Away
 Extras
-Matrix
+Matrix: https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/Matrix
 Useful:
 Two Sum https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/TwoSum
 

@@ -50,23 +50,23 @@ Two Sum https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/TwoSum
 **Creating a Linked List**
 [Swift Code](https://stevenpcurtis.medium.com/linked-lists-and-ll-algorithms-in-swift-8f8788834fce)
 
-**Deleting a Node from a SingleLinkedList**
+**Deleting a Node from a SingleLinkedList**<br>
 [Swift Code](https://stevenpcurtis.medium.com/linked-lists-and-ll-algorithms-in-swift-8f8788834fce)
-**The *Runner* Technique**
-**Recursive Problems**
+**The *Runner* Technique**<br>
+**Recursive Problems**<br>
 
 ## Chapter 3 | Stacks and Queues
-**Implementing a Stack**
-[Swift Code](https://betterprogramming.pub/generics-in-swift-aa111f1c549)
-**Implementing a Queue**
+**Implementing a Stack**<br>
+[Swift Code](https://betterprogramming.pub/generics-in-swift-aa111f1c549)<br>
+**Implementing a Queue**<br>
 
 ## Chapter 4 | Trees and Graphs
-**Types of Trees**
-**Binary Tree Traversal**
-**Binary Heaps (Min-Heaps and Max-Heaps)**
-**Tries (Prefix Trees)**
-**Graphs**
-**Graph Search**
+**Types of Trees**<br>
+**Binary Tree Traversal**<br>
+**Binary Heaps (Min-Heaps and Max-Heaps)**<br>
+**Tries (Prefix Trees)**<br>
+**Graphs**<br>
+**Graph Search**<br>
 
 [BFS](https://betterprogramming.pub/swift-using-bfs-for-leetcode-problems-82696faf58d8)<br>
 [DFS](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/SwiftUsingDFSforLeetCodeProblems)<br>
@@ -75,49 +75,49 @@ Two Sum https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/TwoSum
 
 # Concepts and Algorithms
 ## Chapter 5 | Bit Manipulation
-**Bit Manipulation By Hand**
-**Bit Facts and Tricks**
-**Two's Complement and Negative Numbers**
-**Arithmetic vs. Logical Right Shift**
-**Common Bit Tasks: Getting and Setting**
+**Bit Manipulation By Hand**<br>
+**Bit Facts and Tricks**<br>
+**Two's Complement and Negative Numbers**<br>
+**Arithmetic vs. Logical Right Shift**<br>
+**Common Bit Tasks: Getting and Setting**<br>
 
 [Bit byte and nibble](https://medium.com/swlh/swift-bit-byte-and-nibble-6d34fbf2ee78)
 
 ## Chapter 6 | Math and LogicPuzzles
-**Prime Numbers**
-**Probability**
-**Start talking**
-**Develop Rules and Patterns**
-**Worst Case Shifting**
-**Algorithm Approaches**
+**Prime Numbers**<br>
+**Probability**<br>
+**Start talking**<br>
+**Develop Rules and Patterns**<br>
+**Worst Case Shifting**<br>
+**Algorithm Approaches**<br>
 
 ## Chapter 7 | Object-Oriented Design
-**How to Approach**
-**Design Patterns**
+**How to Approach**<br>
+**Design Patterns**<br>
 
 ## Chapter 8 | Recursion and Dynamic Programming
-**How to Approach**
-**Recursive vs. Iterative Solutions**
-**Dynamic Programming & Memoization**
+**How to Approach**<br>
+**Recursive vs. Iterative Solutions**<br>
+**Dynamic Programming & Memoization**<br>
 
 ## Chapter 9 | System Design and Scalability
-**Handling the Questions**
-**Design: Step-By-Step**
-**Algorithms that Scale: Step-by-Step**
-**Key Concepts**
-**Considerations**
-**There is no "perfect" system**
-**Example Problem**
+**Handling the Questions**<br>
+**Design: Step-By-Step**<br>
+**Algorithms that Scale: Step-by-Step**<br>
+**Key Concepts**<br>
+**Considerations**<br>
+**There is no "perfect" system**<br>
+**Example Problem**<br>
 
 ## Chapter 10 | Sorting and Searching
-**Common Sorting Algorithms**
-**Searching Algorithms**
+**Common Sorting Algorithms**<br>
+**Searching Algorithms**<br>
 
 [Stable sorts](https://stevenpcurtis.medium.com/stable-sorts-75296ec1ce92)
 
 ## Chapter 11 | Testing
-**What the Interviewer is looking for**
-**Testing a Real World Object**
-**Testing a Piece of Software**
-**Testing a Function**
-**Troubleshooting Questions**
+**What the Interviewer is looking for**<br>
+**Testing a Real World Object**<br>
+**Testing a Piece of Software**<br>
+**Testing a Function**<br>
+**Troubleshooting Questions**<br>

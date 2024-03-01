@@ -32,3 +32,8 @@ Using an index:
 
 *stride*
 It can be useful to use stride. Through includes all of the elements but to is exclusive. Choose carefully!
+
+## Spiral Matrix
+Given an m x n matrix, return all elements of the matrix in spiral order.
+
+![Images/simple.png](Images/simple.png)<br>

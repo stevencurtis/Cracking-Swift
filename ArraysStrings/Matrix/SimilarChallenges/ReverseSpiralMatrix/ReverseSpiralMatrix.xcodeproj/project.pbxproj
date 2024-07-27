@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA01E1FB2B90EC6300F77137 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01E1FA2B90EC6300F77137 /* main.swift */; };
-		CA01E2142B90F18200F77137 /* SimpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01E2132B90F18200F77137 /* SimpleTests.swift */; };
-		CA01E2182B90F1DA00F77137 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01E1FA2B90EC6300F77137 /* main.swift */; };
+		CA0F63682B95D24100E2B777 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F63672B95D24100E2B777 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CA01E1F52B90EC6300F77137 /* CopyFiles */ = {
+		CA0F63622B95D24100E2B777 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,21 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CA01E1F72B90EC6300F77137 /* Simple */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Simple; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA01E1FA2B90EC6300F77137 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		CA01E2112B90F18200F77137 /* SimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA01E2132B90F18200F77137 /* SimpleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTests.swift; sourceTree = "<group>"; };
+		CA0F63642B95D24100E2B777 /* ReverseSpiralMatrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReverseSpiralMatrix; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0F63672B95D24100E2B777 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CA01E1F42B90EC6300F77137 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA01E20E2B90F18200F77137 /* Frameworks */ = {
+		CA0F63612B95D24100E2B777 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,96 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CA01E1EE2B90EC6300F77137 = {
+		CA0F635B2B95D24100E2B777 = {
 			isa = PBXGroup;
 			children = (
-				CA01E1F92B90EC6300F77137 /* Simple */,
-				CA01E2122B90F18200F77137 /* SimpleTests */,
-				CA01E1F82B90EC6300F77137 /* Products */,
+				CA0F63662B95D24100E2B777 /* ReverseSpiralMatrix */,
+				CA0F63652B95D24100E2B777 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CA01E1F82B90EC6300F77137 /* Products */ = {
+		CA0F63652B95D24100E2B777 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA01E1F72B90EC6300F77137 /* Simple */,
-				CA01E2112B90F18200F77137 /* SimpleTests.xctest */,
+				CA0F63642B95D24100E2B777 /* ReverseSpiralMatrix */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA01E1F92B90EC6300F77137 /* Simple */ = {
+		CA0F63662B95D24100E2B777 /* ReverseSpiralMatrix */ = {
 			isa = PBXGroup;
 			children = (
-				CA01E1FA2B90EC6300F77137 /* main.swift */,
+				CA0F63672B95D24100E2B777 /* main.swift */,
 			);
-			path = Simple;
-			sourceTree = "<group>";
-		};
-		CA01E2122B90F18200F77137 /* SimpleTests */ = {
-			isa = PBXGroup;
-			children = (
-				CA01E2132B90F18200F77137 /* SimpleTests.swift */,
-			);
-			path = SimpleTests;
+			path = ReverseSpiralMatrix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA01E1F62B90EC6300F77137 /* Simple */ = {
+		CA0F63632B95D24100E2B777 /* ReverseSpiralMatrix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA01E1FE2B90EC6300F77137 /* Build configuration list for PBXNativeTarget "Simple" */;
+			buildConfigurationList = CA0F636B2B95D24100E2B777 /* Build configuration list for PBXNativeTarget "ReverseSpiralMatrix" */;
 			buildPhases = (
-				CA01E1F32B90EC6300F77137 /* Sources */,
-				CA01E1F42B90EC6300F77137 /* Frameworks */,
-				CA01E1F52B90EC6300F77137 /* CopyFiles */,
+				CA0F63602B95D24100E2B777 /* Sources */,
+				CA0F63612B95D24100E2B777 /* Frameworks */,
+				CA0F63622B95D24100E2B777 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Simple;
-			productName = Simple;
-			productReference = CA01E1F72B90EC6300F77137 /* Simple */;
+			name = ReverseSpiralMatrix;
+			productName = ReverseSpiralMatrix;
+			productReference = CA0F63642B95D24100E2B777 /* ReverseSpiralMatrix */;
 			productType = "com.apple.product-type.tool";
-		};
-		CA01E2102B90F18200F77137 /* SimpleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA01E2152B90F18200F77137 /* Build configuration list for PBXNativeTarget "SimpleTests" */;
-			buildPhases = (
-				CA01E20D2B90F18200F77137 /* Sources */,
-				CA01E20E2B90F18200F77137 /* Frameworks */,
-				CA01E20F2B90F18200F77137 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SimpleTests;
-			productName = SimpleTests;
-			productReference = CA01E2112B90F18200F77137 /* SimpleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CA01E1EF2B90EC6300F77137 /* Project object */ = {
+		CA0F635C2B95D24100E2B777 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					CA01E1F62B90EC6300F77137 = {
-						CreatedOnToolsVersion = 15.0;
-					};
-					CA01E2102B90F18200F77137 = {
+					CA0F63632B95D24100E2B777 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = CA01E1F22B90EC6300F77137 /* Build configuration list for PBXProject "Simple" */;
+			buildConfigurationList = CA0F635F2B95D24100E2B777 /* Build configuration list for PBXProject "ReverseSpiralMatrix" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,49 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = CA01E1EE2B90EC6300F77137;
-			productRefGroup = CA01E1F82B90EC6300F77137 /* Products */;
+			mainGroup = CA0F635B2B95D24100E2B777;
+			productRefGroup = CA0F63652B95D24100E2B777 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA01E1F62B90EC6300F77137 /* Simple */,
-				CA01E2102B90F18200F77137 /* SimpleTests */,
+				CA0F63632B95D24100E2B777 /* ReverseSpiralMatrix */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		CA01E20F2B90F18200F77137 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		CA01E1F32B90EC6300F77137 /* Sources */ = {
+		CA0F63602B95D24100E2B777 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA01E1FB2B90EC6300F77137 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA01E20D2B90F18200F77137 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA01E2182B90F1DA00F77137 /* main.swift in Sources */,
-				CA01E2142B90F18200F77137 /* SimpleTests.swift in Sources */,
+				CA0F63682B95D24100E2B777 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CA01E1FC2B90EC6300F77137 /* Debug */ = {
+		CA0F63692B95D24100E2B777 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		CA01E1FD2B90EC6300F77137 /* Release */ = {
+		CA0F636A2B95D24100E2B777 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,7 +245,7 @@
 			};
 			name = Release;
 		};
-		CA01E1FF2B90EC6300F77137 /* Debug */ = {
+		CA0F636C2B95D24100E2B777 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -317,43 +256,13 @@
 			};
 			name = Debug;
 		};
-		CA01E2002B90EC6300F77137 /* Release */ = {
+		CA0F636D2B95D24100E2B777 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UW69ZFFDZJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		CA01E2162B90F18200F77137 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UW69ZFFDZJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.SimpleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		CA01E2172B90F18200F77137 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UW69ZFFDZJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.SimpleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -361,34 +270,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA01E1F22B90EC6300F77137 /* Build configuration list for PBXProject "Simple" */ = {
+		CA0F635F2B95D24100E2B777 /* Build configuration list for PBXProject "ReverseSpiralMatrix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA01E1FC2B90EC6300F77137 /* Debug */,
-				CA01E1FD2B90EC6300F77137 /* Release */,
+				CA0F63692B95D24100E2B777 /* Debug */,
+				CA0F636A2B95D24100E2B777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA01E1FE2B90EC6300F77137 /* Build configuration list for PBXNativeTarget "Simple" */ = {
+		CA0F636B2B95D24100E2B777 /* Build configuration list for PBXNativeTarget "ReverseSpiralMatrix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA01E1FF2B90EC6300F77137 /* Debug */,
-				CA01E2002B90EC6300F77137 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CA01E2152B90F18200F77137 /* Build configuration list for PBXNativeTarget "SimpleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CA01E2162B90F18200F77137 /* Debug */,
-				CA01E2172B90F18200F77137 /* Release */,
+				CA0F636C2B95D24100E2B777 /* Debug */,
+				CA0F636D2B95D24100E2B777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CA01E1EF2B90EC6300F77137 /* Project object */;
+	rootObject = CA0F635C2B95D24100E2B777 /* Project object */;
 }

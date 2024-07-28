@@ -8,7 +8,7 @@ func naiveCheck(_ first: String, _ second: String) -> Bool {
     var count = 0
     for fchar in first {
         for schar in second {
-            if (schar == fchar) {count += 1 ; break}
+            if (schar == fchar) { count += 1; break }
         }
     }
     return count == first.count
@@ -28,12 +28,11 @@ func setCheck(_ first: String, _ second: String) -> Bool {
     
 }
 
-class characterTests: XCTestCase {
+final class characterTests: XCTestCase {
     func testNaive() {
         measure {
             XCTAssertEqual(naiveCheck("ab", "ba"), true)
             XCTAssertEqual(naiveCheck("aa","BB"), false)
-            
         }
     }
     
@@ -41,7 +40,6 @@ class characterTests: XCTestCase {
         measure {
             XCTAssertEqual(setCheck("ab", "ba"), true)
             XCTAssertEqual(setCheck("aa","BB"), false)
-            
         }
     }
     

@@ -1,51 +1,14 @@
-//
-//  main.swift
-//  Simple
-//
-//  Created by Steven Curtis on 29/02/2024.
-//
-
 import Foundation
 
 final class MyCode {
     func spiralOrder(_ matrix: [[Int]]) -> [Int] {
-        let totalCount = matrix.count * matrix[0].count
-        var minRow = 0
-        var maxRow = matrix.count - 1
-        var minColumn = 0
-        var maxColumn = matrix[0].count - 1
-        var output: [Int] = []
-        while minRow <= maxRow && minColumn <= maxColumn {
-            // right
-            guard output.count < totalCount else { return output }
-            for i in minColumn...maxColumn {
-                output.append(matrix[minRow][i])
-            }
-            minRow += 1
-            
-            guard output.count < totalCount else { return output }
-            for j in minRow...maxRow {
-                output.append(matrix[j][maxColumn])
-            }
-            maxColumn -= 1
-            
-            guard output.count < totalCount else { return output }
-            for i in (minColumn...maxColumn).reversed() {
-                output.append(matrix[maxRow][i])
-            }
-            maxRow -= 1
-            
-            guard output.count < totalCount else { return output }
-            for j in (minRow...maxRow).reversed() {
-                output.append(matrix[j][minColumn])
-            }
-            minColumn += 1
-        }
-        
-        return output
+        []
     }
 }
 
+let code = MyCode()
+print(code.spiralOrder([[1,2,3],[4,5,6],[7,8,9]])) // [1,2,3,6,9,8,7,4,5]
+//print(code.spiralOrder([[1,2,3,4],[5,6,7,8],[9,10,11,12]])) // [1,2,3,4,8,12,11,10,9,5,6,7]
 
 
 
@@ -193,7 +156,6 @@ final class MyCode {
 //    }
 //}
     
-
-let code = MyCode()
-print(code.spiralOrder([[1,2,3],[4,5,6],[7,8,9]])) // [1,2,3,6,9,8,7,4,5]
+//let code = MyCode()
+//print(code.spiralOrder([[1,2,3],[4,5,6],[7,8,9]])) // [1,2,3,6,9,8,7,4,5]
 //print(code.spiralOrder([[1,2,3,4],[5,6,7,8],[9,10,11,12]])) // [1,2,3,4,8,12,11,10,9,5,6,7]

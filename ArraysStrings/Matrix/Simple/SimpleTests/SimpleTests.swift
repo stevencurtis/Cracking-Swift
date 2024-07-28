@@ -1,7 +1,7 @@
 import XCTest
 
 final class MyTest: XCTestCase {
-    func testExample() throws {
+    func testSpiralOrder() throws {
         let sol = MyCode()
         XCTAssertEqual(sol.spiralOrder([[]]), [])
         XCTAssertEqual(sol.spiralOrder([[1]]), [1])

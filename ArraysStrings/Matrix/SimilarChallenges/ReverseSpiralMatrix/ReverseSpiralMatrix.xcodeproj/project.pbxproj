@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CA0F63682B95D24100E2B777 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F63672B95D24100E2B777 /* main.swift */; };
+		CA0F63752B95D32800E2B777 /* ReverseSpiralMatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F63742B95D32800E2B777 /* ReverseSpiralMatrixTests.swift */; };
+		CA0F63792B95D34900E2B777 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F63672B95D24100E2B777 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +27,19 @@
 /* Begin PBXFileReference section */
 		CA0F63642B95D24100E2B777 /* ReverseSpiralMatrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReverseSpiralMatrix; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0F63672B95D24100E2B777 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CA0F63722B95D32800E2B777 /* ReverseSpiralMatrixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverseSpiralMatrixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0F63742B95D32800E2B777 /* ReverseSpiralMatrixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseSpiralMatrixTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CA0F63612B95D24100E2B777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0F636F2B95D32800E2B777 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				CA0F63662B95D24100E2B777 /* ReverseSpiralMatrix */,
+				CA0F63732B95D32800E2B777 /* ReverseSpiralMatrixTests */,
 				CA0F63652B95D24100E2B777 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				CA0F63642B95D24100E2B777 /* ReverseSpiralMatrix */,
+				CA0F63722B95D32800E2B777 /* ReverseSpiralMatrixTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +73,14 @@
 				CA0F63672B95D24100E2B777 /* main.swift */,
 			);
 			path = ReverseSpiralMatrix;
+			sourceTree = "<group>";
+		};
+		CA0F63732B95D32800E2B777 /* ReverseSpiralMatrixTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA0F63742B95D32800E2B777 /* ReverseSpiralMatrixTests.swift */,
+			);
+			path = ReverseSpiralMatrixTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +103,23 @@
 			productReference = CA0F63642B95D24100E2B777 /* ReverseSpiralMatrix */;
 			productType = "com.apple.product-type.tool";
 		};
+		CA0F63712B95D32800E2B777 /* ReverseSpiralMatrixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0F63762B95D32800E2B777 /* Build configuration list for PBXNativeTarget "ReverseSpiralMatrixTests" */;
+			buildPhases = (
+				CA0F636E2B95D32800E2B777 /* Sources */,
+				CA0F636F2B95D32800E2B777 /* Frameworks */,
+				CA0F63702B95D32800E2B777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverseSpiralMatrixTests;
+			productName = ReverseSpiralMatrixTests;
+			productReference = CA0F63722B95D32800E2B777 /* ReverseSpiralMatrixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +131,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					CA0F63632B95D24100E2B777 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CA0F63712B95D32800E2B777 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -111,9 +152,20 @@
 			projectRoot = "";
 			targets = (
 				CA0F63632B95D24100E2B777 /* ReverseSpiralMatrix */,
+				CA0F63712B95D32800E2B777 /* ReverseSpiralMatrixTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0F63702B95D32800E2B777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA0F63602B95D24100E2B777 /* Sources */ = {
@@ -121,6 +173,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA0F63682B95D24100E2B777 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0F636E2B95D32800E2B777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0F63792B95D34900E2B777 /* main.swift in Sources */,
+				CA0F63752B95D32800E2B777 /* ReverseSpiralMatrixTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +328,36 @@
 			};
 			name = Release;
 		};
+		CA0F63772B95D32800E2B777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.ReverseSpiralMatrixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CA0F63782B95D32800E2B777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.ReverseSpiralMatrixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -284,6 +375,15 @@
 			buildConfigurations = (
 				CA0F636C2B95D24100E2B777 /* Debug */,
 				CA0F636D2B95D24100E2B777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0F63762B95D32800E2B777 /* Build configuration list for PBXNativeTarget "ReverseSpiralMatrixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0F63772B95D32800E2B777 /* Debug */,
+				CA0F63782B95D32800E2B777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

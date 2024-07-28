@@ -1,7 +1,7 @@
 # Cracking the Coding Interview (Swift)
 
 ## Setting up Xcode and tests 
-![Here is how I use Xcode and tests](https://github.com/stevencurtis/Cracking-Swift/tree/main/Setup/README.md)
+[Here is how I use Xcode and tests](https://github.com/stevencurtis/Cracking-Swift/tree/main/Setup/README.md)
 
 ## Chapter 1 | Arrays and Strings
 **Hash Tables**

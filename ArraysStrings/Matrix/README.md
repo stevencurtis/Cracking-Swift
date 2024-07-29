@@ -17,15 +17,15 @@ grid[1][1] == "D"
 ```
 
 *Iterate over rows*
-Using a for loop:
-`for row in grid`
-Using an index:
-`for i in 0..<grid.count`
+Using a for loop:<br>
+`for row in grid`<br>
+Using an index:<br>
+`for i in 0..<grid.count`<br>
 
-*Iterate over columns*
-Using a for loop
-`for column in 0..<grid[0].count`
-Using an index:
+*Iterate over columns*<br>
+Using a for loop<br>
+`for column in 0..<grid[0].count`<br>
+Using an index:<br>
 ```swift
 for i in 0..<grid[0].count {
     for j in 0..<grid.count {

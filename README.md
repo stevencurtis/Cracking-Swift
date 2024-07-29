@@ -3,21 +3,20 @@
 ## Setting up Xcode and tests 
 [Here is how I use Xcode and tests](https://github.com/stevencurtis/Cracking-Swift/tree/main/Setup/README.md)
 
+## Swift basics
+[Strings](https://github.com/stevencurtis/Cracking-Swift/tree/main/Basics/Strings/README.md)
+[Reduce](https://github.com/stevencurtis/Cracking-Swift/tree/main/Basics/Reduce/README.md)
+** Dictionaries**
+[Dictionaries 1](https://github.com/stevencurtis/Cracking-Swift/tree/main/Basics/Dictionaries/README.md)
+
 ## Chapter 1 | Arrays and Strings
 **Hash Tables**
 Dictionaries are a type of hash table, and provide fast access to entries of data.
-
-They are often used for high-performance computing applications like caches and databases as the lookup for dictionaries is constant.
-
-[Here is a guide](https://stevenpcurtis.medium.com/dictionary-in-swift-52b14d6cfa93)
-
-[and a more complex explanation](https://stevenpcurtis.medium.com/pass-the-swift-code-review-dictionary-edition-25191edb3ff6)
-
-[Alternatively I like this article on implementing a dictionary](https://stevenpcurtis.medium.com/implement-a-dictionary-in-swift-5e06052aa120)
-
-Apple have [documentation](https://developer.apple.com/documentation/swift/dictionary)
-
 Lookups are typically performed in O(1) time, but it depends on the hashing algorithm used.
+[Dictionaries 1](https://stevenpcurtis.medium.com/dictionary-in-swift-52b14d6cfa93)
+[Dictionaries 2](https://stevenpcurtis.medium.com/pass-the-swift-code-review-dictionary-edition-25191edb3ff6)
+[Implementing a dictionary](https://stevenpcurtis.medium.com/implement-a-dictionary-in-swift-5e06052aa120)
+[Dictionary documentation](https://developer.apple.com/documentation/swift/dictionary)
 
 **ArrayList & Resizable Arrays**
 In Swift Arrays are automatically resizable, and grow as you append items.

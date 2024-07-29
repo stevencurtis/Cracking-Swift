@@ -4,19 +4,19 @@
 [Here is how I use Xcode and tests](https://github.com/stevencurtis/Cracking-Swift/tree/main/Setup/README.md)
 
 ## Swift basics
-[Strings](https://github.com/stevencurtis/Cracking-Swift/tree/main/Basics/Strings/README.md)
-[Reduce](https://github.com/stevencurtis/Cracking-Swift/tree/main/Basics/Reduce/README.md)
-** Dictionaries**
-[Dictionaries 1](https://github.com/stevencurtis/Cracking-Swift/tree/main/Basics/Dictionaries/README.md)
+[Strings](https://github.com/stevencurtis/Cracking-Swift/tree/main/Basics/Strings/README.md)<br>
+[Reduce](https://github.com/stevencurtis/Cracking-Swift/tree/main/Basics/Reduce/README.md)<br>
+** Dictionaries**<br>
+[Dictionaries 1](https://github.com/stevencurtis/Cracking-Swift/tree/main/Basics/Dictionaries/README.md)<br>
 
 ## Chapter 1 | Arrays and Strings
 **Hash Tables**
 Dictionaries are a type of hash table, and provide fast access to entries of data.
-Lookups are typically performed in O(1) time, but it depends on the hashing algorithm used.
-[Dictionaries 1](https://stevenpcurtis.medium.com/dictionary-in-swift-52b14d6cfa93)
-[Dictionaries 2](https://stevenpcurtis.medium.com/pass-the-swift-code-review-dictionary-edition-25191edb3ff6)
-[Implementing a dictionary](https://stevenpcurtis.medium.com/implement-a-dictionary-in-swift-5e06052aa120)
-[Dictionary documentation](https://developer.apple.com/documentation/swift/dictionary)
+Lookups are typically performed in O(1) time, but it depends on the hashing algorithm used.<br>
+[Dictionaries 1](https://stevenpcurtis.medium.com/dictionary-in-swift-52b14d6cfa93)<br>
+[Dictionaries 2](https://stevenpcurtis.medium.com/pass-the-swift-code-review-dictionary-edition-25191edb3ff6)<br>
+[Implementing a dictionary](https://stevenpcurtis.medium.com/implement-a-dictionary-in-swift-5e06052aa120)<br>
+[Dictionary documentation](https://developer.apple.com/documentation/swift/dictionary)<br>
 
 **ArrayList & Resizable Arrays**
 In Swift Arrays are automatically resizable, and grow as you append items.
@@ -44,16 +44,16 @@ When a string's contiguous storage fills up, a new buffer must be allocated
 1.4 Palindrome Permutation<br>
 1.5 One Away<br>
 Extras
-Matrix: https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/Matrix
+Matrix: https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/Matrix <br>
 Useful:
-Two Sum https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/TwoSum
+Two Sum https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/TwoSum <br>
 
 ## Chapter 2 | Linked Lists
-**Creating a Linked List**
-[Swift Code](https://stevenpcurtis.medium.com/linked-lists-and-ll-algorithms-in-swift-8f8788834fce)
+**Creating a Linked List**<br>
+[Swift Code](https://stevenpcurtis.medium.com/linked-lists-and-ll-algorithms-in-swift-8f8788834fce)<br>
 
 **Deleting a Node from a SingleLinkedList**<br>
-[Swift Code](https://stevenpcurtis.medium.com/linked-lists-and-ll-algorithms-in-swift-8f8788834fce)
+[Swift Code](https://stevenpcurtis.medium.com/linked-lists-and-ll-algorithms-in-swift-8f8788834fce)<br>
 **The *Runner* Technique**<br>
 **Recursive Problems**<br>
 
@@ -83,7 +83,7 @@ Two Sum https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/TwoSum
 **Arithmetic vs. Logical Right Shift**<br>
 **Common Bit Tasks: Getting and Setting**<br>
 
-[Bit byte and nibble](https://medium.com/swlh/swift-bit-byte-and-nibble-6d34fbf2ee78)
+[Bit byte and nibble](https://medium.com/swlh/swift-bit-byte-and-nibble-6d34fbf2ee78)<br>
 
 ## Chapter 6 | Math and LogicPuzzles
 **Prime Numbers**<br>
@@ -115,7 +115,7 @@ Two Sum https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/TwoSum
 **Common Sorting Algorithms**<br>
 **Searching Algorithms**<br>
 
-[Stable sorts](https://stevenpcurtis.medium.com/stable-sorts-75296ec1ce92)
+[Stable sorts](https://stevenpcurtis.medium.com/stable-sorts-75296ec1ce92)<br>
 
 ## Chapter 11 | Testing
 **What the Interviewer is looking for**<br>

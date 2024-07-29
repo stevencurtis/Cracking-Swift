@@ -6,11 +6,11 @@
 ## Swift basics
 [Strings](https://github.com/stevencurtis/Cracking-Swift/tree/main/Basics/Strings/README.md)<br>
 [Reduce](https://github.com/stevencurtis/Cracking-Swift/tree/main/Basics/Reduce/README.md)<br>
-** Dictionaries**<br>
+**Dictionaries**<br>
 [Dictionaries 1](https://github.com/stevencurtis/Cracking-Swift/tree/main/Basics/Dictionaries/README.md)<br>
 
 ## Chapter 1 | Arrays and Strings
-**Hash Tables**
+**Hash Tables**<br>
 Dictionaries are a type of hash table, and provide fast access to entries of data.
 Lookups are typically performed in O(1) time, but it depends on the hashing algorithm used.<br>
 [Dictionaries 1](https://stevenpcurtis.medium.com/dictionary-in-swift-52b14d6cfa93)<br>
@@ -18,12 +18,12 @@ Lookups are typically performed in O(1) time, but it depends on the hashing algo
 [Implementing a dictionary](https://stevenpcurtis.medium.com/implement-a-dictionary-in-swift-5e06052aa120)<br>
 [Dictionary documentation](https://developer.apple.com/documentation/swift/dictionary)<br>
 
-**ArrayList & Resizable Arrays**
+**ArrayList & Resizable Arrays**<br>
 In Swift Arrays are automatically resizable, and grow as you append items.
 
 Since `Array` is dynamically resizable in Swift, we can think of the `Array` type as an ArrayList.
 
-**StringBuilder**
+**StringBuilder**<br>
 Rather than using a StringBuilder class as in languages like Java, we can use the public API for Strings in Swift. This includes the `+=` operator and String interpolation.
 
 A good StringBuilder class avoids creating new copies of a String for each concatenation that reduces to O(xn²).

@@ -1,6 +1,6 @@
 # Cracking the Coding Interview (Swift)
 
-## Setting up Xcode and tests 
+## Setting up Xcode and Tests 
 [Here is how I use Xcode and tests](https://github.com/stevencurtis/Cracking-Swift/tree/main/Setup/README.md)
 
 ## Swift basics
@@ -41,8 +41,9 @@ When a string's contiguous storage fills up, a new buffer must be allocated
 1.1 [Is Unique](https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/IsUnique)<br>
 1.2 [Check Permutation](https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/CheckPermutation)<br>
 1.3 [URLify](https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/URLify)<br>
-1.4 Palindrome Permutation<br>
-1.5 One Away<br>
+1.4 [Palindrome Permutation](https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/PalindromePermutation)<br>
+1.5 [One Away](https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/OneAway)<br>
+1.6 [String Compression](https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/StringCompression)<br>
 Extras
 Matrix: https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/Matrix <br>
 Useful:

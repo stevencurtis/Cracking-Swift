@@ -53,7 +53,7 @@ class Solution {
 }
 
 final class PermutationTest: XCTestCase {
-    private (set) var solution: Solution!
+    private var solution: Solution!
     override func setUp() {
         solution = Solution()
     }

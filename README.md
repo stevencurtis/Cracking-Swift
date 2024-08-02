@@ -44,6 +44,8 @@ When a string's contiguous storage fills up, a new buffer must be allocated
 1.4 [Palindrome Permutation](https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/PalindromePermutation)<br>
 1.5 [One Away](https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/OneAway)<br>
 1.6 [String Compression](https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/StringCompression)<br>
+1.7 [Rotate Matrix]()<br>
+1.8 [Zero Matrix]()<br>
 Extras
 Matrix: https://github.com/stevencurtis/Cracking-Swift/tree/main/ArraysStrings/Matrix <br>
 Useful:
